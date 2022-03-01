@@ -4,7 +4,7 @@ import pytest
 import example
 
 def test_average():
-    assert example.average([3, 5]) == 4
+    assert example.average([3, 5]) == 4.0
 
 def test_average_empty_list():
     assert example.average([]) == 0
