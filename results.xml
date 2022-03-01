@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.047" timestamp="2022-02-28T17:18:38.399158" hostname="3c22fb0bdf52.ant.amazon.com"><testcase classname="test" name="test_average" time="0.001" /><testcase classname="test" name="test_average_empty_list" time="0.001"><failure message="ZeroDivisionError: division by zero">def test_average_empty_list():
+&gt;       assert example.average([]) == 0
+
+test.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+lst = []
+
+    def average(lst):
+&gt;       return sum(lst)/len(lst)
+E       ZeroDivisionError: division by zero
+
+example.py:5: ZeroDivisionError</failure></testcase></testsuite></testsuites>
